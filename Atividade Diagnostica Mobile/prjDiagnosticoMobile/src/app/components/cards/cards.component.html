@@ -1,0 +1,21 @@
+<ion-item-group>
+
+  <ion-title class="card__txt">Ultimas Notícias</ion-title>
+
+  <ion-card *ngFor="let card of cards" routerLink="/news-details/{{ card.index }}">
+
+    <ion-img [src]=" card.cover"></ion-img>
+
+    <ion-card-header>
+
+      <ion-card-title> {{ card.title }} </ion-card-title>
+
+    </ion-card-header>
+
+    <ion-card-content> {{ card.resume }} </ion-card-content>
+
+  </ion-card>
+
+  <ion-button color="light" expand="block"> Ver Mais Notícias </ion-button>
+
+</ion-item-group>

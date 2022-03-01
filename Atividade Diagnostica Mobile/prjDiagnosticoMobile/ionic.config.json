@@ -1,0 +1,7 @@
+{
+  "name": "prjDiagnosticoMobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

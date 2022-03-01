@@ -1,0 +1,31 @@
+.container {
+  top: 60px;
+}
+
+.card__title{
+  font-size: 2rem;
+  margin: 50px 0 20px 0;
+  text-align: center;
+  line-height: 40px;
+  font-family: 'Gothic', Helvetica, sans-serif;
+}
+
+.card__text{
+  font-size: 1.4rem;
+  max-width: 600px;
+  text-align: justify;
+  font-family: 'Amiri', Helvetica, sans-serif;
+}
+
+.card__group__text > p {
+  margin-top: 40px;
+  letter-spacing: 0.3px;
+  line-height: 40px;
+}
+
+.border__bottom{
+  margin-left: 10%;
+  width: 80%;
+  height: 1px;
+  background-color: #f00;
+}

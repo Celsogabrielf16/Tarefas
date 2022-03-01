@@ -1,0 +1,90 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+  font-family: 'Grind';
+  src: url('./assets/fonts/GrindAndDeath_Demo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GODOFWAR';
+  src: url('./assets/fonts/GODOFWAR.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gothic';
+  src: url('./assets/fonts/GothicA1-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Amiri';
+  src: url('./assets/fonts/Amiri-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FUTRFW';
+  src: url('./assets/fonts/FUTRFW.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'MPLUS1Code';
+  src: url('./assets/fonts/MPLUS1Code-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Vampire';
+  src: url('./assets/fonts/Vampire Wars.ttf') format('truetype');
+}
+
+.logo--large{
+  text-align: center;
+  font-size: 2rem;
+  color: #f00;
+  margin-top: 30px;
+  font-family: 'Grind','Times New Roman', Times, serif;
+}
+
+.logo--small{
+  font-size: 1.4rem;
+  color: #f00;
+  font-family: 'Grind','Times New Roman', Times, serif;
+  margin-top: 5px;
+}
+
+.form__text {
+  font-family: 'Gothic','Times New Roman', Times, serif;
+}
+
+.ion-label--red{
+  color: #f00;
+}
+
+.card__txt{
+  font-size: 1.5rem;
+  padding-top: 20px;
+  font-family: 'GODOFWAR','Times New Roman', Times, serif;
+}

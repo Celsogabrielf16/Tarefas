@@ -1,0 +1,11 @@
+
+<div class="ion-margin">
+
+  <ion-title class="card__txt">Populares</ion-title>
+
+  <ion-text *ngFor="let popular of populars" class="ion-text-center" color="dark" routerLink="/news-details/{{ popular.index }}">
+    <h1>{{ popular.title }}</h1>
+    <div class="ion-text__divider"></div>
+  </ion-text>
+
+</div>
